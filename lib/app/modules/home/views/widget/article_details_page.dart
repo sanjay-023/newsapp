@@ -43,6 +43,10 @@ class ArticlePage extends StatelessWidget {
                     ),
                   ),
                 ),
+                SizedBox(
+                  width: 150,
+                ),
+                Text(article.publishedDate!)
               ],
             ),
             SizedBox(
